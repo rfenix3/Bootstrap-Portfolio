@@ -1,0 +1,75 @@
+
+body {
+	width: 960px;
+	background-color: #dddddd;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	margin-left: 50px;
+	color:#777777;
+	/*background-image: url("../images/weather/weather.png");*/
+	}
+
+h1, h3{
+	color:#4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h3{
+	padding-top: 20px;
+}
+
+.col-lg-4{
+	float: left !important;
+}
+
+.col-lg-8{
+	border: 1px solid blue;
+	background-color: #ffffff;
+}
+
+.panel{
+	border: 1px solid red;
+}
+
+#github, #linkedin, #overflow {
+	width: 70px;
+    height: 70px;
+}
+
+.main{
+	margin-top: -50px;
+}
+
+
+.place_pics {
+	width:280px;
+	height: 140px;
+}
+
+div.portfolio {
+	width: 280px;
+	height: 140px;
+	float:left;
+	margin: 20px 20px 20px 20px;
+	justify-content: center;
+	/*border:1px solid black; */
+}
+
+div.transbox {
+  margin: -70px 0px 10px 0px;
+  opacity: 0.9;
+  background-color: #4aaaa5;
+  /*border: 1px solid red; */
+}
+
+div.transbox p {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;  
+}
+
+
+	
+
+

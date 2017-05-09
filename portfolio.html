@@ -1,0 +1,111 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- NavBar (copied and pasted from WC3) -->
+  <!-- Static navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar">icon</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Richard Fenix</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">About <span class="sr-only">(current)</span></a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+  </nav>
+
+  <!-- Main Body goes in Container -->
+  <div class="container container-fluid">
+    <div class="row">
+
+      <!-- The content in this div gets wrapped in a panel -->
+      <div class="col-lg-8">
+        <h1>Portfolio</h1>
+        <hr>
+        <div class="portfolio">
+          <img class="place_pics img-responsive" src="asset/images/technics-q-c-640-480-2.jpg" alt="Hangman">
+          <div class="transbox"> 
+            <p>Hangman</p>
+          </div>
+        </div>  
+
+        <div class="portfolio">
+          <img class="place_pics img-responsive" src="asset/images/technics-q-c-640-480-3.jpg" alt="RPG Game">
+          <div class="transbox">
+            <p>RPG Game</p>
+          </div>
+        </div>  
+
+        <div class="portfolio">
+          <img class="place_pics img-responsive" src="asset/images/technics-q-c-640-480-4.jpg" alt="Trivia Game">
+          <div class="transbox">
+            <p>Trivia Game</p>
+          </div>
+        </div>
+
+        <div class="portfolio">
+          <img class="place_pics img-responsive" src="asset/images/technics-q-c-640-480-6.jpg" alt="Rutgers Info Widget">
+          <div class="transbox">
+            <p>Rutgers Info Widget</p>
+          </div>
+        </div>    
+
+        <div class="portfolio">
+          <img class="place_pics img-responsive" src="asset/images/technics-q-c-640-480-7.jpg" alt="Rock Paper Scissors">
+          <div class="transbox">
+            <p>Rock Paper Scissors</p>
+          </div>
+        </div>   
+      </div>
+
+      <div class="col-lg-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect with Me</h3>
+          </div>
+        <div class="panel-body">
+
+        <p>
+          <a href="https://github.com/rfenix3/">
+           <img id="github" src="asset/images/github_square_black-128.png" alt="Github Icon">
+           </a>
+          <a href="https://www.linkedin.com/in/richard-fenix/">
+           <img id="linkedin" src="asset/images/linkedin_square_color-128.png" alt="LinkedIn Icon">
+          </a>
+          <a href="http://stackoverflow.com/users/7843066/rfenix3">
+           <img id="overflow" src="asset/images/overflow-128.png" alt="Stack Overflow Icon">
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
